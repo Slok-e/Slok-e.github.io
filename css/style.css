@@ -2,3 +2,6 @@ body {
     background-image: url(/img/LIonBobDoctor.JPG);
     background-size: cover;
 }
+div {
+    background-color: burlywood;
+}
