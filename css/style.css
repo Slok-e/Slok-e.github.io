@@ -2,6 +2,10 @@ body {
     background-image: url(/img/LIonBobDoctor.JPG);
     background-size: cover;
 }
-div {
+.content {
     background-color: burlywood;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
 }
