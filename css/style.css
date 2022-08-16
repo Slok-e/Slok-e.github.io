@@ -7,5 +7,10 @@ body {
     margin: auto;
     padding: 20px;
     width: 80%;
-    max-width: 800px;
+    max-width: 500px;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -40px;
 }
