@@ -4,7 +4,7 @@ body {
 }
 .content {
     background-color: burlywood;
-    margin: auto;
+    margin: 30px auto 30px auto;
     padding: 20px;
     width: 80%;
     max-width: 500px;
@@ -14,4 +14,7 @@ ul {
     list-style-type: none;
     text-align: center;
     margin-left: -40px;
+}
+h1, h2, h3, p {
+    text-align: center;
 }
