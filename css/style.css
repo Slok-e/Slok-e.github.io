@@ -12,7 +12,8 @@ body {
 }
 .content-left {
     background-color: burlywood;
-    margin: 30px 30px 30px 350px;
+    margin-left: 10%;
+    margin-right: 800px;
     padding: 20px;
     width: 80%;
     max-width: 500px;
