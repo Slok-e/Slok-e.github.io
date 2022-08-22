@@ -3,6 +3,7 @@ body {
     background-size: cover;
 }
 .content {
+    opacity: 0.8;
     background-color: burlywood;
     margin: 30px auto 30px auto;
     padding: 20px;
@@ -11,6 +12,7 @@ body {
     border-radius: 0 100px 0 100px;
 }
 .content-left {
+    opacity: 0.8;
     background-color: burlywood;
     margin-left: 10%;
     margin-right: 800px;
