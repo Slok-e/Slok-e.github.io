@@ -1,6 +1,8 @@
 body {
     background-image: url(/img/LIonBobDoctor.JPG);
     background-size: cover;
+    max-width: 1000px;
+    margin: auto;
 }
 .content {
     opacity: 0.8;
@@ -14,16 +16,16 @@ body {
 .content-left {
     opacity: 0.8;
     background-color: burlywood;
-    margin-left: 20%;
-    margin-right: 800px;
+    margin: 20px 0 20px 10%;
     padding: 20px;
     width: 80%;
     max-width: 500px;
     border-radius: 0 100px 0 100px;
 }
 .content-right {
+    opacity: 0.8;
     background-color: burlywood;
-    margin: 350px 30px 30px 30px;
+    margin: 20px 10% 20px auto;
     padding: 20px;
     width: 80%;
     max-width: 500px;
