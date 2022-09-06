@@ -3,19 +3,21 @@
     font-family: sans-serif;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: #23232e;
+    --bg-primary: burlywood;
     --bg-secondary: #141418; 
 }
 
 main {
-    margin-top: 5rem;
+    margin-left: 5rem;
+    padding: 1rem; 
 }
 
 body {
     background-image: url(/img/LIonBobDoctor.JPG);
     background-size: cover;
     max-width: 1000px;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 body::-webkit-scrollbar {
@@ -33,7 +35,10 @@ body::-webkit-scrollbar-thumb{
 }
 
 .navbar {
-    display: flex;
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color:var(--bg-primary)
 }
 
 .content {
@@ -75,4 +80,3 @@ ul {
 h1, h2, h3, p {
     text-align: center;
 }
- 
