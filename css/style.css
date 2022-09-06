@@ -44,7 +44,27 @@ body::-webkit-scrollbar-thumb{
     background-color:var(--bg-primary)
 }
 
-.navbar-nav{}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-item {
+    width: 80%;
+}
+
+.navbar-item:last-child {
+    margin-top: auto;
+}
 
 /* Div Containers for content */
 .content {
