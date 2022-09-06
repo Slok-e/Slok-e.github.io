@@ -1,9 +1,41 @@
+:root {
+    font-size: 16px;
+    font-family: sans-serif;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418; 
+}
+
+main {
+    margin-top: 5rem;
+}
+
 body {
     background-image: url(/img/LIonBobDoctor.JPG);
     background-size: cover;
     max-width: 1000px;
     margin: auto;
 }
+
+body::-webkit-scrollbar {
+    width: .6rem;
+}
+
+body::-webkit-scrollbar-track{
+    background-image: url(/img/LIonBobDoctor.JPG);
+    background-size: fill;
+    background-position: right;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: burlywood;
+}
+
+.navbar {
+    display: flex;
+}
+
 .content {
     opacity: 0.8;
     background-color: burlywood;
@@ -13,6 +45,7 @@ body {
     max-width: 500px;
     border-radius: 0 100px 0 100px;
 }
+
 .content-left {
     opacity: 0.8;
     background-color: burlywood;
@@ -22,6 +55,7 @@ body {
     max-width: 500px;
     border-radius: 0 100px 0 100px;
 }
+
 .content-right {
     opacity: 0.8;
     background-color: burlywood;
@@ -31,11 +65,14 @@ body {
     max-width: 500px;
     border-radius: 0 100px 0 100px;
 }
+
 ul {
     list-style-type: none;
     text-align: center;
     margin-left: -40px;
 }
+
 h1, h2, h3, p {
     text-align: center;
 }
+ 
